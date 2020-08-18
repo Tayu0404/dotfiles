@@ -69,6 +69,7 @@ Plug 'mattn/emmet-vim'
 " syntax
 Plug 'hail2u/vim-css3-syntax'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'vim-scripts/ShaderHighLight'
 
 " Tabular (:Tableformat wrap)
 Plug 'godlygeek/tabular'
@@ -176,7 +177,7 @@ let g:vim_markdown_folding_disabled = 1
 
 let g:localvimrc_persistent = 1
 
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
 \		"Modified"  : "✹",
 \		"Staged"    : "✚",
 \		"Untracked" : "✭",
@@ -199,8 +200,6 @@ set encoding=utf-8
 
 " terminal encoding
 set termencoding=utf-8
-
-language C
 
 set fileformats=unix,dos,mac
 set fileencodings=ucs-bom,utf-8,iso-2022-jp,euc-jp,cp932,utf-16le,utf-16,default
